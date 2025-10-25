@@ -1,8 +1,12 @@
 #include <iostream>
 #include "Graph.hpp"
+#include <Windows.h>
 
 int main()
 {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
 	Graph graph(false);
 
 	//graph.addTop(10);

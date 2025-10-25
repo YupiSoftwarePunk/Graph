@@ -123,19 +123,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BFS_DFS\Graph.cpp" />
-    <ClCompile Include="BFS_DFS\main.cpp" />
+    <ClCompile Include="BFS_DFS\Graph1.cpp" />
+    <ClCompile Include="BFS_DFS\main1.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BFS_DFS\Graph.h" />
+    <ClInclude Include="BFS_DFS\Graph1.h" />
     <ClInclude Include="Graph.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
     <None Include="connections.csv" />
     <None Include="stations.csv" />
+    <None Include="x64\Debug\Graph.exe" />
+    <None Include="x64\Debug\Graph.pdb" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

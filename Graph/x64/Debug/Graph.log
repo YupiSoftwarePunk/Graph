@@ -1,2 +1,8 @@
-﻿  main.cpp
-  Graph.vcxproj -> C:\Users\Denis\Documents\projects C++\Graph\x64\Debug\Graph.exe
+﻿Graph.obj : error LNK2005: "public: __cdecl Graph::Graph(int,bool)" (??0Graph@@QEAA@H_N@Z) уже определен в Graph1.obj
+Graph.obj : error LNK2005: "public: void __cdecl Graph::BFS(int)" (?BFS@Graph@@QEAAXH@Z) уже определен в Graph1.obj
+Graph.obj : error LNK2005: "public: void __cdecl Graph::DFS(int)" (?DFS@Graph@@QEAAXH@Z) уже определен в Graph1.obj
+Graph.obj : error LNK2005: "private: void __cdecl Graph::DFSUtil(int,class std::vector<bool,class std::allocator<bool> > &)" (?DFSUtil@Graph@@AEAAXHAEAV?$vector@_NV?$allocator@_N@std@@@std@@@Z) уже определен в Graph1.obj
+Graph.obj : error LNK2005: "public: void __cdecl Graph::addEdge(int,int)" (?addEdge@Graph@@QEAAXHH@Z) уже определен в Graph1.obj
+main.obj : error LNK2005: "int __cdecl main12(void)" (?main12@@YAHXZ) уже определен в main1.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\Denis\Documents\projects C++\Graph\x64\Debug\Graph.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

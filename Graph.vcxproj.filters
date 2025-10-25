@@ -21,10 +21,10 @@
     <ClCompile Include="Graph.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="BFS_DFS\Graph.cpp">
+    <ClCompile Include="BFS_DFS\Graph1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="BFS_DFS\main.cpp">
+    <ClCompile Include="BFS_DFS\main1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClInclude Include="Graph.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="BFS_DFS\Graph.h">
+    <ClInclude Include="BFS_DFS\Graph1.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
@@ -40,5 +40,7 @@
     <None Include="connections.csv" />
     <None Include="stations.csv" />
     <None Include=".gitignore" />
+    <None Include="x64\Debug\Graph.exe" />
+    <None Include="x64\Debug\Graph.pdb" />
   </ItemGroup>
 </Project>
